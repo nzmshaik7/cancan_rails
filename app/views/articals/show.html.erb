@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @artical.name %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @artical.user.email %>
+</p>
+
+<%= link_to 'Edit', edit_artical_path(@artical) %> |
+<%= link_to 'Back', articals_path %>
